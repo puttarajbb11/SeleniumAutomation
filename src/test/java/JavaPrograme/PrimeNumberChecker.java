@@ -9,7 +9,7 @@ public class PrimeNumberChecker {
         if (number <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(number); i++) {
+        for (int i = 2; i <= Math.sqrt(number); i++) { // If a number num is divisible by a number greater than its square root, then it must also be divisible by a smaller number. Checking up to the square root is sufficient to determine if num is composite.
             if (number % i == 0) {
                 return false;
             }

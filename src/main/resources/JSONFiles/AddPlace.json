@@ -1,0 +1,17 @@
+{
+  "location": {
+    "lat": -38.383483,
+    "lng": 33.427326
+  },
+  "accuracy": 50,
+  "name": "Giribabu house",
+  "phone_number": "(+91) 983 143 143",
+  "address": "No 1, Sai Shree layout, Hosa Road Banglore",
+  "types": [
+    "shoe park",
+    "shop",
+    "Electronic"
+  ],
+  "website": "https://rahulshettyacademy.com",
+  "language": "English-IN"
+}
