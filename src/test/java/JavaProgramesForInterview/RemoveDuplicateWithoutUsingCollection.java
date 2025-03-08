@@ -1,6 +1,5 @@
 package JavaProgramesForInterview;
 
-import org.testng.annotations.Test;
 
 import java.util.Scanner;
 
