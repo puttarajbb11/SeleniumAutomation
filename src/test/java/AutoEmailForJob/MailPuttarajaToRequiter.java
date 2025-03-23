@@ -125,7 +125,7 @@ public class MailPuttarajaToRequiter {
         final String senderPassword = "octjpdelxwasjxat"; // Use an App Password for security
 
         // Email subject and body
-        String subject = "Senior Automation Test Engineer | Bangalore | 6+ Yrs | Java - Selenium - Appium";
+        String subject = "Senior Automation Test Engineer | Bangalore Location | 6+ Yrs | Java - Selenium - Appium";
         String body = "Hi Team,\n" +
                 "\n" +
                 "I came across your job opening and wanted to let you know that I'm interested in the Test Automation Engineer position. Below are my details:\n" +
