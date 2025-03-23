@@ -8,6 +8,7 @@ public class CountEvenAndOddNumbersInArray {
 
         int evenNumber = 0;
         int oddNumber = 0;
+
         for (int e : arr) {
             if (e % 2 == 0) {
                 evenNumber++;
