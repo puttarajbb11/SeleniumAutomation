@@ -18,9 +18,7 @@ public class CheckStringPalindrome {
             System.out.println("Enter the number");
             String text = sc.nextLine();
 
-            String rev = isPalindrome(text);
-
-            if (rev.equals(text)) {
+            if (isPalindrome(text).equals(text)) {
                 System.out.println("The given string is palindrome");
             } else {
                 System.out.println("The given String in not palindrome");

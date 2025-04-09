@@ -12,6 +12,8 @@ public class AddTwoArrayIfLengthIsDifferent {
             int val = (i < arr1.length) ? arr1[i] : 0;
             int val1 = (i < arr2.length) ? arr2[i] : 0;
             System.out.println(val + val1);
+
+
         }
     }
 }
