@@ -15,11 +15,6 @@
     </properties>
     <dependencies>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.16.1</version>
-        </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -27,19 +22,40 @@
             <version>5.5.0</version>
         </dependency>
 
+
+           <!-- TestNG (Only one version should be present) -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.8.0</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- Selenium Java -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>4.16.1</version>
+            </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.8.0</version>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.27</version>
         </dependency>
 
-
+        <!-- JavaMail API for sending emails -->
         <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>5.7.0</version>  <!-- Check for the latest version -->
+            <groupId>com.sun.mail</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.0.1</version>
         </dependency>
 
+            <!-- WebDriverManager -->
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>5.7.0</version>
+            </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>

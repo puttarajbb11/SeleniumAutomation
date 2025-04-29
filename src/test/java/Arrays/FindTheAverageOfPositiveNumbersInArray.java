@@ -22,7 +22,7 @@ public class FindTheAverageOfPositiveNumbersInArray {
             System.out.println("Average of the positive number is "+avg);
         }
         else {
-            System.out.println("No Positive number in given assay");
+            System.out.println("No Positive number in given array");
         }
 
     }
