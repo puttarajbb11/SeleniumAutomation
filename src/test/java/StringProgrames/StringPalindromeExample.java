@@ -1,8 +1,10 @@
 package StringProgrames;
 
+import JavaPrograme.PrimeNumberChecker;
+
 import java.util.Scanner;
 
-public class StringPalindromeExample {
+public class StringPalindromeExample  {
 
     public static void main(String[] a) {
         Scanner sc = new Scanner(System.in);

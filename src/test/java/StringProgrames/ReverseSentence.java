@@ -7,7 +7,7 @@ public class ReverseSentence {
         String[] sl = txt.split(" ");
 
         for (int i = sl.length - 1; i >= 0; i--) {
-            System.out.println(sl[i] + " ");
+            System.out.print(sl[i] + " ");
         }
     }
 }

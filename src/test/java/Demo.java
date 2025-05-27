@@ -2,10 +2,13 @@ public class Demo {
 
     public static void main(String[] args) {
 
-    int[] arr= {50, 10, 25, 1, 17, 99, 33};
+        String name = "Puttaraja Baradeli";
+        String rev = "";
 
-//    Arrays.sort(arr);
+        for (int i = name.length() - 1; i >= 0; i--) {
+            rev = rev += name.charAt(i);
+        }
+        System.out.println(rev);
 
-    System.out.println(arr);
-}
+    }
 }
